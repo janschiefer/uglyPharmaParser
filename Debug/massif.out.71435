@@ -1,0 +1,2018 @@
+desc: (none)
+cmd: ./uglyPharmaParser
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=25467570
+mem_heap_B=700177
+mem_heap_extra_B=160687
+mem_stacks_B=0
+heap_tree=detailed
+n6: 700177 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 324600 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 324600 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 81120 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 81120 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 81120 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 81120 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 243120 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 243120 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 243120 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 243120 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 81120 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 81000 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 81000 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 72704 0x4B11B89: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29)
+  n1: 72704 0x401196D: call_init.part.0 (dl-init.c:74)
+   n1: 72704 0x4011A57: call_init (dl-init.c:37)
+    n1: 72704 0x4011A57: _dl_init (dl-init.c:121)
+     n0: 72704 0x4001109: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.33.so)
+ n1: 23588 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 23588 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 23588 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 23588 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 23588 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 14145 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 9443 in 2 places, all below massif's threshold (1.00%)
+ n2: 19627 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 19623 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 19623 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 19623 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 16538 in 20 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=47560112
+mem_heap_B=1286334
+mem_heap_extra_B=316602
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=64578099
+mem_heap_B=1741424
+mem_heap_extra_B=436960
+mem_stacks_B=0
+heap_tree=detailed
+n6: 1741424 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 875640 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 875640 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 218880 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 218880 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 218880 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 218880 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 656400 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 656400 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 656400 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 656400 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 218880 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 218760 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 218760 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 72704 0x4B11B89: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29)
+  n1: 72704 0x401196D: call_init.part.0 (dl-init.c:74)
+   n1: 72704 0x4011A57: call_init (dl-init.c:37)
+    n1: 72704 0x4011A57: _dl_init (dl-init.c:121)
+     n0: 72704 0x4001109: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.33.so)
+ n1: 67215 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 67215 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 67215 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 67215 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 67215 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 41497 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 25718 in 2 places, all below massif's threshold (1.00%)
+ n2: 52919 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 52915 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 52915 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 52915 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 16546 in 20 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=85747730
+mem_heap_B=2322864
+mem_heap_extra_B=589616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=110952526
+mem_heap_B=2985337
+mem_heap_extra_B=765479
+mem_stacks_B=0
+heap_tree=detailed
+n6: 2985337 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1535160 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 1535160 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 383760 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 383760 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 383760 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 383760 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 1151040 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 1151040 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1151040 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 1151040 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 383760 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 383640 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 383640 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 117123 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 117123 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 117123 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 117123 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 117123 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 71955 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 45168 in 2 places, all below massif's threshold (1.00%)
+ n2: 92765 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 92761 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 92761 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 92761 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4B11B89: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29)
+  n1: 72704 0x401196D: call_init.part.0 (dl-init.c:74)
+   n1: 72704 0x4011A57: call_init (dl-init.c:37)
+    n1: 72704 0x4011A57: _dl_init (dl-init.c:121)
+     n0: 72704 0x4001109: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.33.so)
+ n0: 16545 in 20 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=132346245
+mem_heap_B=3570796
+mem_heap_extra_B=920980
+mem_stacks_B=0
+heap_tree=detailed
+n6: 3570796 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1845720 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 1845720 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 461400 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 461400 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 461400 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 461400 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 1383960 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 1383960 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1383960 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 1383960 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 461400 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 461280 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 461280 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 140336 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 140336 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 140336 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 140336 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 140336 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 86141 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 54195 in 2 places, all below massif's threshold (1.00%)
+ n2: 111528 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 111524 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 111524 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 111524 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4B11B89: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29)
+  n1: 72704 0x401196D: call_init.part.0 (dl-init.c:74)
+   n1: 72704 0x4011A57: call_init (dl-init.c:37)
+    n1: 72704 0x4011A57: _dl_init (dl-init.c:121)
+     n0: 72704 0x4001109: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.33.so)
+ n0: 16548 in 20 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=153834518
+mem_heap_B=4145976
+mem_heap_extra_B=1072856
+mem_stacks_B=0
+heap_tree=detailed
+n6: 4145976 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2150520 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 2150520 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 537600 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 537600 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 537600 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 537600 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 1612560 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 1612560 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1612560 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 1612560 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 537600 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 537480 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 537480 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 163704 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 163704 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 163704 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 163704 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 163704 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 100599 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 63105 in 2 places, all below massif's threshold (1.00%)
+ n2: 129943 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 129939 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 129939 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 129939 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4B11B89: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29)
+  n1: 72704 0x401196D: call_init.part.0 (dl-init.c:74)
+   n1: 72704 0x4011A57: call_init (dl-init.c:37)
+    n1: 72704 0x4011A57: _dl_init (dl-init.c:121)
+     n0: 72704 0x4001109: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.33.so)
+ n0: 16545 in 20 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=176971423
+mem_heap_B=4757051
+mem_heap_extra_B=1236381
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=195961010
+mem_heap_B=5262911
+mem_heap_extra_B=1370033
+mem_stacks_B=0
+heap_tree=detailed
+n6: 5262911 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2741400 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 2741400 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 685320 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 685320 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 685320 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 685320 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 2055720 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 2055720 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 2055720 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 2055720 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 685320 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 685200 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 685200 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 210905 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 210905 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 210905 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 210905 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 210905 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 130548 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 80357 in 2 places, all below massif's threshold (1.00%)
+ n2: 165642 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 165638 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 165638 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 165638 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4B11B89: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.29)
+  n1: 72704 0x401196D: call_init.part.0 (dl-init.c:74)
+   n1: 72704 0x4011A57: call_init (dl-init.c:37)
+    n1: 72704 0x4011A57: _dl_init (dl-init.c:121)
+     n0: 72704 0x4001109: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.33.so)
+ n0: 16540 in 20 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=216374021
+mem_heap_B=5814083
+mem_heap_extra_B=1515741
+mem_stacks_B=0
+heap_tree=detailed
+n5: 5814083 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3033240 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 3033240 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 758280 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 758280 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 758280 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 758280 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 2274840 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 2274840 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 2274840 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 2274840 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 758280 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 758280 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 758280 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 233478 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 233478 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 233478 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 233478 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 233478 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 144624 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 88854 in 2 places, all below massif's threshold (1.00%)
+ n2: 183274 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 183270 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 183270 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 183270 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89251 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=230076816
+mem_heap_B=6172085
+mem_heap_extra_B=1610667
+mem_stacks_B=0
+heap_tree=detailed
+n5: 6172085 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3222840 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 3222840 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 805680 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 805680 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 805680 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 805680 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 2417040 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 2417040 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 2417040 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 2417040 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 805680 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 805680 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 805680 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 248224 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 248224 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 248224 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 248224 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 248224 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 153917 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 94307 in 2 places, all below massif's threshold (1.00%)
+ n2: 194729 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 194725 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 194725 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 194725 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89252 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=251479257
+mem_heap_B=6742143
+mem_heap_extra_B=1763241
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=274832960
+mem_heap_B=7384417
+mem_heap_extra_B=1930879
+mem_stacks_B=0
+heap_tree=detailed
+n5: 7384417 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3865560 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 3865560 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 966360 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 966360 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 966360 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 966360 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 2898840 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 2898840 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 2898840 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 2898840 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 966360 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 966240 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 966240 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 297208 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 297208 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 297208 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 297208 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 297208 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 184028 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 113180 in 2 places, all below massif's threshold (1.00%)
+ n2: 233560 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 233556 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 233556 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 233556 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89249 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=300229728
+mem_heap_B=8075305
+mem_heap_extra_B=2114071
+mem_stacks_B=0
+heap_tree=detailed
+n5: 8075305 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4231800 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 4231800 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1057920 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1057920 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1057920 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1057920 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 3173520 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 3173520 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 3173520 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 3173520 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1057920 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1057800 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1057800 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 325054 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 325054 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 325054 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 325054 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 325054 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 201078 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 123976 in 2 places, all below massif's threshold (1.00%)
+ n2: 255687 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 255683 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 255683 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 255683 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89244 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=321966578
+mem_heap_B=8657342
+mem_heap_extra_B=2268866
+mem_stacks_B=0
+heap_tree=detailed
+n5: 8657342 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4539960 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 4539960 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1134960 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1134960 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1134960 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1134960 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 3404880 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 3404880 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 3404880 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 3404880 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1134960 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1134960 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1134960 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 348943 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 348943 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 348943 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 348943 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 348943 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 215870 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 133073 in 2 places, all below massif's threshold (1.00%)
+ n2: 274305 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 274301 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 274301 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 274301 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89254 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=335347124
+mem_heap_B=9008903
+mem_heap_extra_B=2361785
+mem_stacks_B=0
+heap_tree=detailed
+n5: 9008903 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4726200 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 4726200 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1181520 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1181520 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1181520 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1181520 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 3544440 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 3544440 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 3544440 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 3544440 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1181520 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1181520 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1181400 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 363459 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 363459 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 363459 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 363459 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 363459 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 224870 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 138589 in 2 places, all below massif's threshold (1.00%)
+ n2: 285557 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 285553 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 285553 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 285553 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89247 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=356404631
+mem_heap_B=9561963
+mem_heap_extra_B=2509077
+mem_stacks_B=0
+heap_tree=detailed
+n5: 9561963 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 5019000 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 5019000 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1254720 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1254720 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1254720 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1254720 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 3763920 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 3763920 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 3763920 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 3763920 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1254720 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1254600 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1254600 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 386546 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 386546 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 386546 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 386546 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 386546 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 239574 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 146972 in 2 places, all below massif's threshold (1.00%)
+ n2: 303247 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 303243 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 303243 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 303243 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89250 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=382597898
+mem_heap_B=10250066
+mem_heap_extra_B=2693598
+mem_stacks_B=0
+heap_tree=detailed
+n5: 10250066 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 5382840 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 5382840 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1345680 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1345680 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1345680 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1345680 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 4037040 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 4037040 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 4037040 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 4037040 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1345680 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1345680 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1345680 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 415705 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 415705 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 415705 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 415705 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 415705 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 257993 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 157712 in 2 places, all below massif's threshold (1.00%)
+ n2: 325229 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 325225 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 325225 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 325225 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89252 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=398334167
+mem_heap_B=10666131
+mem_heap_extra_B=2804317
+mem_stacks_B=0
+heap_tree=detailed
+n5: 10666131 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 5603160 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 5603160 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1400760 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1400760 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1400760 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1400760 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 4202040 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 4202040 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 4202040 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 4202040 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1400760 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1400640 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1400640 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 433141 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 433141 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 433141 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 433141 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 433141 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 268989 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 164152 in 2 places, all below massif's threshold (1.00%)
+ n2: 338540 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 338536 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 338536 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 338536 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89250 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=418632293
+mem_heap_B=11209564
+mem_heap_extra_B=2949492
+mem_stacks_B=0
+heap_tree=detailed
+n5: 11209564 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 5890680 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 5890680 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1472640 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1472640 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1472640 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1472640 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 4417680 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 4417680 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 4417680 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 4417680 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1472640 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1472520 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1472520 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 456045 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 456045 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 456045 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 456045 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 456045 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 283712 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 172333 in 2 places, all below massif's threshold (1.00%)
+ n2: 355911 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 355907 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 355907 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 355907 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89248 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=435951684
+mem_heap_B=11665067
+mem_heap_extra_B=3070885
+mem_stacks_B=0
+heap_tree=detailed
+n5: 11665067 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6131640 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 6131640 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1532880 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1532880 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1532880 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1532880 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 4598400 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 4598400 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 4598400 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 4598400 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1532880 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1532760 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1532760 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 475310 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 475310 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 475310 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 475310 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 475310 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 295827 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 179483 in 2 places, all below massif's threshold (1.00%)
+ n2: 370469 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 370465 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 370465 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 370465 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89248 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=453030245
+mem_heap_B=12138412
+mem_heap_extra_B=3197284
+mem_stacks_B=0
+heap_tree=detailed
+n5: 12138412 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6382680 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 6382680 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1595640 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1595640 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1595640 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1595640 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 4786920 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 4786920 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 4786920 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 4786920 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1595640 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1595640 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1595640 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 493927 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 493927 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 493927 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 493927 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 493927 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 307030 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 186897 in 2 places, all below massif's threshold (1.00%)
+ n2: 385636 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 385632 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 385632 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 385632 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89249 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=476029383
+mem_heap_B=12758108
+mem_heap_extra_B=3362788
+mem_stacks_B=0
+heap_tree=detailed
+n5: 12758108 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6711000 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 6711000 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1677720 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1677720 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1677720 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1677720 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 5032920 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 5032920 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 5032920 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 5032920 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1677720 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1677600 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1677600 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 519471 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 519471 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 519471 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 519471 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 519471 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 322818 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 196653 in 2 places, all below massif's threshold (1.00%)
+ n2: 405472 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 405468 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 405468 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 405468 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89245 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=495417792
+mem_heap_B=13275662
+mem_heap_extra_B=3501538
+mem_stacks_B=0
+heap_tree=detailed
+n5: 13275662 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6984600 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 6984600 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1746120 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1746120 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1746120 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1746120 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 5238360 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 5238360 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 5238360 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 5238360 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1746120 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1746120 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1746120 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 541447 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 541447 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 541447 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 541447 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 541447 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 336861 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 204586 in 2 places, all below massif's threshold (1.00%)
+ n2: 422002 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 421998 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 421998 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 421998 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89253 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=515423690
+mem_heap_B=13813955
+mem_heap_extra_B=3644845
+mem_stacks_B=0
+heap_tree=detailed
+n5: 13813955 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 7269720 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 7269720 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1817400 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1817400 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1817400 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1817400 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 5451960 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 5451960 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 5451960 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 5451960 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1817400 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1817280 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1817280 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 563804 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 563804 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 563804 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 563804 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 563804 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 350951 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 212853 in 2 places, all below massif's threshold (1.00%)
+ n2: 439228 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 439224 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 439224 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 439224 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89243 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=530913015
+mem_heap_B=14232804
+mem_heap_extra_B=3756156
+mem_stacks_B=0
+heap_tree=detailed
+n5: 14232804 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 7491480 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 7491480 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1872840 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1872840 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1872840 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1872840 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 5618400 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 5618400 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 5618400 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 5618400 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1872840 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1872840 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1872720 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 581049 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 581049 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 581049 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 581049 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 581049 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 361767 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 219282 in 2 places, all below massif's threshold (1.00%)
+ n2: 452626 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 452622 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 452622 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 452622 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89249 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=553014961
+mem_heap_B=14811038
+mem_heap_extra_B=3910034
+mem_stacks_B=0
+heap_tree=detailed
+n5: 14811038 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 7797240 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 7797240 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 1949280 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 1949280 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 1949280 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 1949280 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 5847840 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 5847840 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 5847840 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 5847840 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 1949280 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 1949280 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 1949280 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 605615 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 605615 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 605615 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 605615 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 605615 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 377349 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 228266 in 2 places, all below massif's threshold (1.00%)
+ n2: 471099 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 471095 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 471095 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 471095 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 1 place, below massif's threshold (1.00%)
+ n0: 89244 in 21 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=569675002
+mem_heap_B=15260655
+mem_heap_extra_B=4028705
+mem_stacks_B=0
+heap_tree=detailed
+n5: 15260655 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8035800 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 8035800 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 2008920 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 2008920 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 2008920 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 2008920 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 6026640 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 6026640 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 6026640 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 6026640 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 2008920 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 2008920 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 2008800 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 623423 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 623423 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 623423 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 623423 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 623423 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 387997 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 235426 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 485512 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 485508 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 485508 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 485508 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89280 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=599045668
+mem_heap_B=16039011
+mem_heap_extra_B=4235917
+mem_stacks_B=0
+heap_tree=detailed
+n5: 16039011 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8447160 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 8447160 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 2111760 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 2111760 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 2111760 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 2111760 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 6335280 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 6335280 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 6335280 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 6335280 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 2111760 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 2111760 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 2111760 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 656927 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 656927 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 656927 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 656927 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 656927 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 409022 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 247905 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 510365 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 510361 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 510361 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 510361 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89279 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=617741946
+mem_heap_B=16524960
+mem_heap_extra_B=4364816
+mem_stacks_B=0
+heap_tree=detailed
+n5: 16524960 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8703480 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 8703480 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 2175840 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 2175840 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 2175840 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 2175840 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 6527280 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 6527280 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 6527280 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 6527280 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 2175840 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 2175720 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 2175720 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 679071 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 679071 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 679071 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 679071 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 679071 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 423368 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 255703 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 525851 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 525847 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 525847 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 525847 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89278 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=643266910
+mem_heap_B=17195422
+mem_heap_extra_B=4543394
+mem_stacks_B=0
+heap_tree=detailed
+n5: 17195422 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 9058200 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 9058200 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 2264520 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 2264520 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 2264520 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 2264520 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 6793560 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 6793560 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 6793560 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 6793560 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 2264520 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 2264520 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 2264520 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 707100 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 707100 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 707100 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 707100 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 707100 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 440950 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 266150 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 547282 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 547278 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 547278 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 547278 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89280 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=668588869
+mem_heap_B=17894504
+mem_heap_extra_B=4727992
+mem_stacks_B=0
+heap_tree=detailed
+n5: 17894504 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 9429240 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 9429240 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 2357280 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 2357280 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 2357280 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 2357280 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 7071600 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 7071600 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 7071600 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 7071600 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 2357280 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 2357160 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 2357160 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 734685 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 734685 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 734685 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 734685 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 734685 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 457512 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 277173 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 569699 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 569695 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 569695 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 569695 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89280 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=695488725
+mem_heap_B=18620363
+mem_heap_extra_B=4921685
+mem_stacks_B=0
+heap_tree=detailed
+n5: 18620363 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 9813240 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 9813240 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 2453280 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 2453280 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 2453280 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 2453280 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 7359720 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 7359720 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 7359720 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 7359720 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 2453280 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 2453280 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 2453160 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 765235 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 765235 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 765235 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 765235 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 765235 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 476758 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 288477 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 592899 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 592895 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 592895 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 592895 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89269 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=723644421
+mem_heap_B=19375906
+mem_heap_extra_B=5124030
+mem_stacks_B=0
+heap_tree=detailed
+n5: 19375906 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 10213080 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 10213080 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 2553240 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 2553240 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 2553240 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 2553240 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 7659480 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 7659480 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 7659480 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 7659480 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 2553240 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 2553120 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 2553120 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 797011 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 797011 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 797011 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 797011 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 797011 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 496778 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 300233 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 617056 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 617052 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 617052 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 617052 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89279 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=752320638
+mem_heap_B=20163730
+mem_heap_extra_B=5332414
+mem_stacks_B=0
+heap_tree=detailed
+n5: 20163730 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 10630680 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 10630680 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 2657640 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 2657640 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 2657640 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 2657640 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 7972680 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 7972680 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 7972680 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 7972680 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 2657640 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 2657520 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 2657520 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 828750 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 828750 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 828750 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 828750 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 828750 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 516217 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 312533 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 642286 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 642282 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 642282 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 642282 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89334 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=783280889
+mem_heap_B=20981915
+mem_heap_extra_B=5550789
+mem_stacks_B=0
+heap_tree=detailed
+n5: 20981915 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 11063640 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 11063640 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 2765880 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 2765880 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 2765880 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 2765880 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 8297400 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 8297400 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 8297400 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 8297400 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 2765880 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 2765760 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 2765760 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 863099 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 863099 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 863099 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 863099 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 863099 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 537993 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 325106 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 668444 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 668440 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 668440 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 668440 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89332 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=806689074
+mem_heap_B=21608507
+mem_heap_extra_B=5717693
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=823584655
+mem_heap_B=22053333
+mem_heap_extra_B=5835771
+mem_stacks_B=0
+heap_tree=detailed
+n5: 22053333 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 11630040 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 11630040 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 2907480 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 2907480 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 2907480 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 2907480 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 8722200 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 8722200 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 8722200 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 8722200 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 2907480 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 2907360 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 2907360 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 909093 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 909093 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 909093 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 909093 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 909093 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 567267 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 341826 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 702664 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 702660 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 702660 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 702660 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89336 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=856411666
+mem_heap_B=22948675
+mem_heap_extra_B=6073581
+mem_stacks_B=0
+heap_tree=detailed
+n5: 22948675 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 12104280 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 12104280 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 3026040 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 3026040 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 3026040 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 3026040 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 9077880 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 9077880 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 9077880 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 9077880 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 3026040 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 3025920 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 3025920 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 945867 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 945867 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 945867 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 945867 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 945867 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 589978 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 355889 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 731316 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 731312 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 731312 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 731312 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89332 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=873526808
+mem_heap_B=23406125
+mem_heap_extra_B=6195115
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=899856046
+mem_heap_B=24107790
+mem_heap_extra_B=6383754
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=917595554
+mem_heap_B=24586303
+mem_heap_extra_B=6510633
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=936233770
+mem_heap_B=25061868
+mem_heap_extra_B=6637500
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=964084609
+mem_heap_B=25836943
+mem_heap_extra_B=6843745
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=994120439
+mem_heap_B=26642356
+mem_heap_extra_B=7056988
+mem_stacks_B=0
+heap_tree=detailed
+n5: 26642356 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 14059320 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 14059320 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 3514800 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 3514800 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 3514800 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 3514800 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 10544160 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 10544160 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 10544160 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 10544160 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 3514800 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 3514680 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 3514680 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1100107 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1100107 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1100107 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1100107 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1100107 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 686540 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 413567 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 849433 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 849429 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 849429 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 849429 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89336 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=1022588312
+mem_heap_B=27410948
+mem_heap_extra_B=7261204
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1054694687
+mem_heap_B=28283656
+mem_heap_extra_B=7491224
+mem_stacks_B=0
+heap_tree=detailed
+n5: 28283656 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 14929080 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 14929080 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 3732240 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 3732240 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 3732240 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 3732240 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 11196480 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 11196480 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 11196480 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 11196480 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 3732240 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 3732120 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 3732120 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1166782 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1166782 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1166782 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1166782 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1166782 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 727339 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 439443 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 901981 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 901977 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 901977 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 901977 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89333 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=1076114473
+mem_heap_B=28851931
+mem_heap_extra_B=7642405
+mem_stacks_B=0
+heap_tree=detailed
+n5: 28851931 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 15230040 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 15230040 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 3807480 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 3807480 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 3807480 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 3807480 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 11422200 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 11422200 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 11422200 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 11422200 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 3807480 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 3807360 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 3807360 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1190194 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1190194 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1190194 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1190194 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1190194 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 741908 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 448286 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 920164 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 920160 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 920160 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 920160 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89333 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=1084775743
+mem_heap_B=29080678
+mem_heap_extra_B=7703242
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1086999755
+mem_heap_B=29140697
+mem_heap_extra_B=7719303
+mem_stacks_B=0
+heap_tree=detailed
+n5: 29140697 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 15382680 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 15382680 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 3845640 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 3845640 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 3845640 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 3845640 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 11536680 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 11536680 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 11536680 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 11536680 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 3845640 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 3845520 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 3845520 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1202616 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1202616 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1202616 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1202616 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1202616 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 749910 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 452706 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 929386 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 929382 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 929382 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 929382 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89335 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=1097871372
+mem_heap_B=29431716
+mem_heap_extra_B=7797020
+mem_stacks_B=0
+heap_tree=detailed
+n5: 29431716 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 15536760 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 15536760 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 3884160 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 3884160 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 3884160 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 3884160 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 11652240 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 11652240 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 11652240 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 11652240 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 3884160 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 3884040 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 3884040 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1214699 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1214699 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1214699 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1214699 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1214699 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 757439 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 457260 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 938695 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 938691 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 938691 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 938691 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89322 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=1108890534
+mem_heap_B=29726559
+mem_heap_extra_B=7875121
+mem_stacks_B=0
+heap_tree=detailed
+n5: 29726559 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 15692760 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 15692760 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 3923160 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 3923160 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 3923160 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 3923160 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 11769240 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 11769240 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 11769240 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 11769240 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 3923160 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 3923040 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 3923040 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1227103 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1227103 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1227103 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1227103 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1227103 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 765122 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 461981 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 948120 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 948116 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 948116 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 948116 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89336 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=1119938130
+mem_heap_B=30023953
+mem_heap_extra_B=7954335
+mem_stacks_B=0
+heap_tree=detailed
+n5: 30023953 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 15850200 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 15850200 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 3962520 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 3962520 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 3962520 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 3962520 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 11887320 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 11887320 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 11887320 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 11887320 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 3962520 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 3962400 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 3962400 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1239465 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1239465 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1239465 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1239465 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1239465 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 772853 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 466612 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 957632 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 957628 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 957628 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 957628 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89336 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=1131045827
+mem_heap_B=30323522
+mem_heap_extra_B=8034670
+mem_stacks_B=0
+heap_tree=detailed
+n5: 30323522 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16009080 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 16009080 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 4002240 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 4002240 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 4002240 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 4002240 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 12006480 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 12006480 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 12006480 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 12006480 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 4002240 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 4002120 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 4002120 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1251398 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1251398 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1251398 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1251398 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1251398 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 780098 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 471300 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 967231 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 967227 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 967227 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 967227 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89333 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=1142311964
+mem_heap_B=30627042
+mem_heap_extra_B=8114990
+mem_stacks_B=0
+heap_tree=detailed
+n5: 30627042 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16169880 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 16169880 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 4042440 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 4042440 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 4042440 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 4042440 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 12127080 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 12127080 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 12127080 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 12127080 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 4042440 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 4042320 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 4042320 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1263801 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1263801 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1263801 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1263801 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1263801 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 787691 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 476110 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 976946 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 976942 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 976942 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 976942 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89335 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=1154311096
+mem_heap_B=30933270
+mem_heap_extra_B=8196458
+mem_stacks_B=0
+heap_tree=detailed
+n5: 30933270 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16331640 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 16331640 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 4082880 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 4082880 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 4082880 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 4082880 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 12248400 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 12248400 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 12248400 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 12248400 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 4082880 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 4082760 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 4082760 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1277176 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1277176 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1277176 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1277176 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1277176 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 796309 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 480867 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 986719 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 986715 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 986715 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 986715 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89335 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=1165969306
+mem_heap_B=31242656
+mem_heap_extra_B=8278496
+mem_stacks_B=0
+heap_tree=detailed
+n5: 31242656 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16495320 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 16495320 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 4123800 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 4123800 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 4123800 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 4123800 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 12371160 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 12371160 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 12371160 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 12371160 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 4123800 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 4123680 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 4123680 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1290232 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1290232 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1290232 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1290232 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1290232 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 804473 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 485759 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 996608 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 996604 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 996604 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 996604 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89336 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=1177459617
+mem_heap_B=31555678
+mem_heap_extra_B=8361442
+mem_stacks_B=0
+heap_tree=detailed
+n5: 31555678 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16661400 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 16661400 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 4165320 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 4165320 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 4165320 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 4165320 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 12495720 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 12495720 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 12495720 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 12495720 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 4165320 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 4165200 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 4165200 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1302586 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1302586 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1302586 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1302586 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1302586 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 811873 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 490713 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 1006642 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 1006638 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1006638 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 1006638 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89330 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=1188968946
+mem_heap_B=31871463
+mem_heap_extra_B=8445417
+mem_stacks_B=0
+heap_tree=detailed
+n5: 31871463 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16828920 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 16828920 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 4207200 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 4207200 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 4207200 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 4207200 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 12621360 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 12621360 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 12621360 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 12621360 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 4207200 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 4207080 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 4207080 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1315087 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1315087 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1315087 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1315087 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1315087 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 819445 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 495642 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 1016763 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 1016759 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1016759 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 1016759 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89333 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=1200789878
+mem_heap_B=32190443
+mem_heap_extra_B=8529765
+mem_stacks_B=0
+heap_tree=detailed
+n5: 32190443 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 16997880 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 16997880 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 4249440 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 4249440 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 4249440 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 4249440 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 12748320 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 12748320 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 12748320 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 12748320 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 4249440 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 4249440 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 4249440 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 1327944 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1327944 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1327944 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1327944 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1327944 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 827467 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 500477 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 1026971 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 1026967 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1026967 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 1026967 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n0: 89328 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=1214313205
+mem_heap_B=32313136
+mem_heap_extra_B=8546072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=1228547523
+mem_heap_B=32763936
+mem_heap_extra_B=8546072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=1244825724
+mem_heap_B=33279136
+mem_heap_extra_B=8546072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=1277525811
+mem_heap_B=34309536
+mem_heap_extra_B=8546072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=1342538407
+mem_heap_B=36370336
+mem_heap_extra_B=8546072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=1472663388
+mem_heap_B=40491936
+mem_heap_extra_B=8548056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=1487541996
+mem_heap_B=44838171
+mem_heap_extra_B=8551717
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=1488119339
+mem_heap_B=44838171
+mem_heap_extra_B=8551717
+mem_stacks_B=0
+heap_tree=peak
+n6: 44838171 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 17031960 0x48E6D94: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n5: 17031960 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+   n0: 4257960 0x10D25D: main (uglyPharmaParser.cpp:129)
+   n0: 4257960 0x10D298: main (uglyPharmaParser.cpp:131)
+   n0: 4257960 0x10D2D3: main (uglyPharmaParser.cpp:133)
+   n0: 4257960 0x10D30E: main (uglyPharmaParser.cpp:135)
+   n0: 120 in 1 place, below massif's threshold (1.00%)
+ n1: 12773880 0x48E701B: xmlNewText (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 12773880 0x48EC533: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 12773880 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n3: 12773880 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+     n0: 4257960 0x10D335: main (uglyPharmaParser.cpp:137)
+     n0: 4257960 0x10D35C: main (uglyPharmaParser.cpp:138)
+     n0: 4257960 0x10D383: main (uglyPharmaParser.cpp:139)
+ n1: 8243200 0x496B79E: xmlBufGrow (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 8243200 0x48BFAEE: xmlCharEncOutput (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 8243200 0x4904AF7: xmlOutputBufferWriteEscape (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 8243200 0x49EB532: ??? (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n1: 8243200 0x49EADBD: ??? (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+      n1: 8243200 0x49EB5A4: ??? (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+       n1: 8243200 0x49EADBD: ??? (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+        n1: 8243200 0x49EB5A4: ??? (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+         n1: 8243200 0x49EADBD: ??? (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+          n1: 8243200 0x49EBA4A: ??? (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+           n1: 8243200 0x49ED0ED: xmlDocDumpFormatMemoryEnc (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+            n1: 8243200 0x11140F: squishyXMLDocument::printDocToString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::basic_string_view<char, std::char_traits<char> >, bool, bool) (squishyXML.cpp:334)
+             n1: 8243200 0x111612: squishyXMLDocument::printDocToFile(std::basic_string_view<char, std::char_traits<char> >, std::basic_string_view<char, std::char_traits<char> >, bool, bool) (squishyXML.cpp:370)
+              n0: 8243200 0x10D4BC: main (uglyPharmaParser.cpp:164)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n3: 5375265 0x4969085: xmlStrndup (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n1: 4346235 0x49ED154: xmlDocDumpFormatMemoryEnc (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 4346235 0x11140F: squishyXMLDocument::printDocToString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::basic_string_view<char, std::char_traits<char> >, bool, bool) (squishyXML.cpp:334)
+    n1: 4346235 0x111612: squishyXMLDocument::printDocToFile(std::basic_string_view<char, std::char_traits<char> >, std::basic_string_view<char, std::char_traits<char> >, bool, bool) (squishyXML.cpp:370)
+     n0: 4346235 0x10D4BC: main (uglyPharmaParser.cpp:164)
+  n1: 1029026 0x48E6DF2: xmlNewNode (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1029026 0x1104CD: squishyXMLNode::squishyXMLNode(_xmlNs*, std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:37)
+    n0: 1029026 in 5 places, all below massif's threshold (1.00%)
+  n0: 4 in 2 places, all below massif's threshold (1.00%)
+ n1: 1330002 0x496BDA3: xmlBufResize (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+  n2: 1330002 0x496BE5A: xmlBufAdd (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+   n1: 1330002 0x48EC57C: xmlStringGetNodeList (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+    n1: 1330002 0x48EDCCB: xmlNodeSetContent (in /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.10)
+     n2: 1330002 0x110CC1: squishyXMLNode::setNodeContent(std::basic_string_view<char, std::char_traits<char> >) (squishyXML.cpp:190)
+      n0: 828526 0x10D335: main (uglyPharmaParser.cpp:137)
+      n0: 501476 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 83864 in 26 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=69
+#-----------
+time=1501499906
+mem_heap_B=18547907
+mem_heap_extra_B=4909221
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=1514880473
+mem_heap_B=3697806
+mem_heap_extra_B=961762
+mem_stacks_B=0
+heap_tree=empty
