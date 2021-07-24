@@ -10,7 +10,7 @@
 //
 // Usage:
 // 1. Download PDF from https://www.dimdi.de/dynamic/de/arzneimittel/downloads/?dir=/festbetraege/
-// 2. Run pdftotext -layout -nopgbrk -nodiag -x 0 -y 0 -W 305 -H 2500 [PDF FILE] festbetraege.txt
+// 2. Run in program directory: pdftotext -layout -nopgbrk -nodiag -x 0 -y 0 -W 565 -H 2500 [PDF FILE]festbetraege.txt
 // 3. Run this tool to generate XML.
 //
 // Extract:
@@ -22,6 +22,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <string>
 #include <string_view>
 #include <algorithm>
 #include <vector>
@@ -65,11 +66,21 @@ std::string reduce(const std::string& str,
     return result;
 }
 
+bool isNumeric( const std::string &str ) {
+
+	bool retval = true;
+
+	  for ( auto it = str.begin(); it!=str.end(); ++it) {
+		  if( !isdigit(*it) && *it != ',' && *it != '.' && *it != '+' && *it != '-' ) retval = false;
+	  }
+
+	  return retval;
+}
 
 
 int main() {
 
-	std::ifstream myfile ("/home/jschiefer/Dokumente/festbetraege.txt");
+	std::ifstream myfile ("festbetraege.txt");
 
 	squishyXMLParser parser;
 
@@ -79,9 +90,13 @@ int main() {
 
 	 if (myfile.is_open())	{
 
-		std::string line, test_line, packungsgroesse, PZN, pharma_name;
+		std::string line, test_line, temp;
 
 	    std::size_t pos1, pos2;
+
+		std::vector<std::string> aData;
+
+		unsigned char dataCounter;
 
 	    unsigned long int nParsed = 0;
 
@@ -111,36 +126,100 @@ int main() {
 
 				std::reverse(test_line.begin(), test_line.end());
 
-			    pos1 = test_line.find(" ");
-			    pos2 = test_line.find(" ", pos1 + 1);
+				pos1 = 0;
+				aData.clear();
 
-			    packungsgroesse = trim( test_line.substr(0, pos1) );
-     			PZN = trim( test_line.substr(pos1 + 1, 8) );
-     			pharma_name = trim ( test_line.substr(pos2 + 1) );
+				for(dataCounter = 0; dataCounter < 9; dataCounter++) {
+					pos2 = test_line.find(" ", pos1 + 1);
 
- 			   std::reverse(packungsgroesse.begin(), packungsgroesse.end());
- 			   std::reverse(PZN.begin(), PZN.end());
- 			   std::reverse(pharma_name.begin(), pharma_name.end());
+					temp = trim( test_line.substr(pos1, pos2 - pos1) );
 
- 			   squishyXMLNode medicationNode(NULL, "medication", doc, false);
+					if(dataCounter == 3 && isNumeric(temp)) {
+						aData.push_back("");
+						dataCounter++;
+					}
 
- 			   squishyXMLNode nameNode(NULL, "name", doc, false);
+					std::reverse(temp.begin(), temp.end());
+
+					aData.push_back(temp);
+
+					pos1 = pos2;
+
+				}
+
+				temp = trim ( test_line.substr(pos2 + 1) );
+
+				std::reverse(temp.begin(), temp.end());
+
+				aData.push_back(temp);
+
+			   squishyXMLNode medicationNode(NULL, "Medication", doc, false);
+
+
+			   squishyXMLNode nameNode(NULL, "Name", doc, false);
+
+ 			   nameNode.setNodeContent(aData.at(9));
+
+ 			   medicationNode.addChildNode(nameNode);
 
  			   squishyXMLNode PZNNode(NULL, "PZN", doc, false);
 
- 			   squishyXMLNode packSizeNode(NULL, "packSize", doc, false);
+ 			   PZNNode.setNodeContent(aData.at(8));
 
- 		 		nameNode.setNodeContent(pharma_name);
- 		 		PZNNode.setNodeContent(PZN);
- 		 		packSizeNode.setNodeContent(packungsgroesse);
+ 			   medicationNode.addChildNode(PZNNode);
 
- 		 		medicationNode.addChildNode(nameNode);
- 		 		medicationNode.addChildNode(PZNNode);
- 		 		medicationNode.addChildNode(packSizeNode);
+ 			   squishyXMLNode packSizeNode(NULL, "PackSize", doc, false);
 
- 		 		rootNode.addChildNode(medicationNode);
+ 			   packSizeNode.setNodeContent(aData.at(7));
 
- 		 		nParsed++;
+ 			   medicationNode.addChildNode(packSizeNode);
+
+ 			  squishyXMLNode priceNode(NULL, "Price", doc, false);
+
+ 			  priceNode.setNodeContent(aData.at(6));
+
+ 			  medicationNode.addChildNode(priceNode);
+
+ 			  squishyXMLNode fixedPriceNode(NULL, "FixedPrice", doc, false);
+
+ 			  fixedPriceNode.setNodeContent(aData.at(5));
+
+ 			  medicationNode.addChildNode(fixedPriceNode);
+
+ 			  squishyXMLNode priceDiffNode(NULL, "PriceDifference", doc, false);
+
+ 			  priceDiffNode.setNodeContent(aData.at(4));
+
+ 			  medicationNode.addChildNode(priceDiffNode);
+
+ 			  squishyXMLNode actIngredientNode(NULL, "ActiveIngredient", doc, false);
+
+ 			  actIngredientNode.setNodeContent(aData.at(3));
+
+ 			  medicationNode.addChildNode(actIngredientNode);
+
+ 			 squishyXMLNode amountNode(NULL, "AmountOfActiveIngredient", doc, false);
+
+ 			 amountNode.setNodeContent(aData.at(2));
+
+ 			 medicationNode.addChildNode(amountNode);
+
+ 			 squishyXMLNode littleWNode(NULL, "PotencyEquivalent", doc, false);
+
+ 		     littleWNode.setNodeContent(aData.at(1));
+
+ 			 medicationNode.addChildNode(littleWNode);
+
+ 			 squishyXMLNode pharmaceuticalFormNode(NULL, "PharmaceuticalForm", doc, false);
+
+ 			 pharmaceuticalFormNode.setNodeContent(aData.at(0));
+
+ 			 medicationNode.addChildNode(pharmaceuticalFormNode);
+
+
+ 			 rootNode.addChildNode(medicationNode);
+
+ 			 nParsed++;
 
 			}
 
