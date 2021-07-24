@@ -87,7 +87,7 @@ int main() {
 
 		bool mark = false;
 
-		squishyXMLNode rootNode( NULL, "medicationDatabase");
+		squishyXMLNode rootNode( NULL, "medicationDatabase", doc, true );
 
 		while ( getline (myfile,line) )	{
 
@@ -122,13 +122,13 @@ int main() {
  			   std::reverse(PZN.begin(), PZN.end());
  			   std::reverse(pharma_name.begin(), pharma_name.end());
 
- 			   squishyXMLNode medicationNode(NULL, "medication");
+ 			   squishyXMLNode medicationNode(NULL, "medication", doc, false);
 
- 			   squishyXMLNode nameNode(NULL, "name");
+ 			   squishyXMLNode nameNode(NULL, "name", doc, false);
 
- 			   squishyXMLNode PZNNode(NULL, "PZN");
+ 			   squishyXMLNode PZNNode(NULL, "PZN", doc, false);
 
- 			   squishyXMLNode packSizeNode(NULL, "packSize");
+ 			   squishyXMLNode packSizeNode(NULL, "packSize", doc, false);
 
  		 		nameNode.setNodeContent(pharma_name);
  		 		PZNNode.setNodeContent(PZN);
@@ -147,9 +147,6 @@ int main() {
 		}
 
 		myfile.close();
-
-		doc.setRootElement(rootNode);
-
 
 		doc.printDocToFile("pzn-database.xml", "UTF-8", true, true );
 
